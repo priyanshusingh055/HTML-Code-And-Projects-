@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete HTML Portfolio</title>
+</head>
+<body>
+
+    <header>
+        <h1>Alex Developer</h1>
+        <p><em>Full Stack Engineer &amp; Accessibility Advocate</em></p>
+        
+        <nav>
+            <p><strong>Jump to:</strong></p>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills (Definition Lists)</a></li>
+                <li><a href="#experience">Experience (Tables)</a></li>
+                <li><a href="#projects">Code Samples (Interactive)</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <section id="about">
+            <h2>👋 About Me</h2>
+            <img src="https://via.placeholder.com/150" alt="Profile photo of Alex" width="150" height="150">
+            
+            <p>
+                I build <strong>fast</strong>, <strong>reliable</strong>, and <strong>secure</strong> web applications.
+                My philosophy is simple:
+            </p>
+
+            <blockquote>
+                "Content is king. Code is the castle."
+            </blockquote>
+
+            <p>
+                Currently, I am working with <small>HTML, Python, and Go</small>.
+            </p>
+        </section>
+
+        <hr>
+
+        <section id="skills">
+            <h2>🛠 Skills & Definitions</h2>
+            <p>Using the <code>&lt;dl&gt;</code> tag for skill definitions:</p>
+
+            <dl>
+                <dt><strong>Frontend Development</strong></dt>
+                <dd>HTML5, Semantic Markup, DOM Manipulation</dd>
+
+                <dt><strong>Backend Development</strong></dt>
+                <dd>Server logic, Database Management, API Design</dd>
+
+                <dt><strong>DevOps</strong></dt>
+                <dd>CI/CD Pipelines, Docker Containers</dd>
+            </dl>
+        </section>
+
+        <hr>
+
+        <section id="experience">
+            <h2>💼 Work History</h2>
+            <p>Using a <code>&lt;table&gt;</code> to organize dates and roles:</p>
+
+            <table border="1" cellpadding="10" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Year</th>
+                        <th>Role</th>
+                        <th>Company</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2022 - Present</td>
+                        <td>Senior Engineer</td>
+                        <td>Tech Corp</td>
+                    </tr>
+                    <tr>
+                        <td>2019 - 2022</td>
+                        <td>Junior Developer</td>
+                        <td>StartUp Inc</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr>
+
+        <section id="projects">
+            <h2>🚀 Code Samples</h2>
+            <p>Click the arrows below to expand the code snippets (using <code>&lt;details&gt;</code>).</p>
+
+            <article>
+                <details>
+                    <summary><strong>Project A: Python Automation Script</strong></summary>
+                    <p>This script automates file organization.</p>
+                    
+                    <pre>
+<code>
+def organize_files(directory):
+    for file in directory:
+        if file.endswith('.jpg'):
+            move_to_images(file)
+</code>
+                    </pre>
+                    <p><a href="#">View on GitHub</a></p>
+                </details>
+            </article>
+
+            <article>
+                <details>
+                    <summary><strong>Project B: HTML Structure</strong></summary>
+                    <p>A sample of semantic HTML used in this very site.</p>
+                    <pre>
+<code>
+&lt;section&gt;
+  &lt;h2&gt;Hello World&lt;/h2&gt;
+&lt;/section&gt;
+</code>
+                    </pre>
+                </details>
+            </article>
+        </section>
+
+        <hr>
+
+        <section id="contact">
+            <h2>📬 Get in Touch</h2>
+            
+            <address>
+                <strong>Alex Developer</strong><br>
+                123 Web Lane, Internet City<br>
+                <br>
+                Email: <a href="mailto:alex@example.com">alex@example.com</a><br>
+                Phone: <a href="tel:+1234567890">+1 (234) 567-890</a>
+            </address>
+        </section>
+
+    </main>
+
+    <hr>
+
+    <footer>
+        <center>
+            <small>&copy; 2024 Alex Developer. Built with purely semantic HTML.</small>
+        </center>
+    </footer>
+
+</body>
+</html>

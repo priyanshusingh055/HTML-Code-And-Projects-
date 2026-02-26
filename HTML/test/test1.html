@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> This is a page   </h1> <br>
+    <p>[MeterPlayPause]
+Meter=Image
+ImageName=[MeasureStateButton]
+X=(20*#Scale#)r
+Y=(0*#Scale#)<br>
+W=(13*#Scale#)
+AntiAlias=1
+SolidColor=0,0,0,1
+ImageTint=#ButtonColor#
+DynamicVariables=1
+LeftMouseUpAction=[!CommandMeasure "MeasureStateButton" "PlayPause"]
+</p>
+
+
+
+
+<image src="image/girlred.jpg"
+alt="this is a girl"
+height="600px"/>
+<br>
+  
+<br>
+<video src="asset/monkey.mp4"
+alt="this is a video"
+height="250px"
+controls
+muted
+autoplay />
+
+</body>
+</html>
